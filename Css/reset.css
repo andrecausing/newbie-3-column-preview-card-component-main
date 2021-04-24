@@ -1,0 +1,27 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    line-height: 1.6;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9375rem;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 100%);
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
